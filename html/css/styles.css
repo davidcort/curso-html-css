@@ -1,4 +1,4 @@
-/* Esta font se descago de google fonts */
+
 @font-face {
     font-family: 'Quicksand', sans-serif;
     src: url(./fonts/Quicksand-Medium.ttf);
@@ -6,6 +6,8 @@
 
 body {
     margin: 0;
+    background-color: #cbeabb;
+    padding: 15%;
 }
 
 #main {

@@ -1,0 +1,54 @@
+@import "styles.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url(./fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url(./fonts/Quicksand-Medium.ttf)
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url(./fonts/Quicksand-Light.ttf)
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: orange;
+}
+
+.bold {
+    font-family: 'Quicksand-Bold';
+    background: linear-gradient(yellow, red, #333333);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.medium {
+    font-family: 'Quicksand-Medium';
+    font-size: 30px;
+    /* offset -x offset -y blur color -shadow */
+    text-shadow: 3px 5px 1px gray; 
+    color: rgb(41, 22, 211);
+} 
+
+p {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+}
+
+pre {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 20px;
+}
