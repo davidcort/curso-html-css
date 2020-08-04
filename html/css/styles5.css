@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #fa3c3c;
+}
+
+.subcontainer {
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.subcontainer img {
+    width: 25%;
+    transition-duration: 1s;
+}
+
+.saturate:hover {
+    filter: saturate(5);
+    -webkit-filter: saturate(5);
+}
+
+.grayscale:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.contrast:hover {
+    filter: contrast(160%);
+    -webkit-filter: contrast(160%);
+}
+
+.brightness:hover {
+    filter: brightness(0.25);
+    -webkit-filter: brightness(0.25);
+}
+
+.blur:hover {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.invert:hover {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.sepia:hover {
+    filter: sepia(100%);
+    -webkit-filter: sepia(100%);
+}
+
+.huerotate:hover {
+    filter: hue-rotate(300deg);
+    -webkit-filter: hue-rotate(300deg);
+}
+
+/* 
+
+.huerotate:hover {
+    filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
+} 
+
+*/

@@ -55,11 +55,6 @@ body {
     transition-timing-function: ease-out;
 }
 
-/* transition-property: width height border background-color;
-transition-delay: 0.5s;
-transition-duration: 1s;
-transition-timing-function: ease-out; */
-
 .circle:hover {
     width: 300px;
     height: 300px;
